@@ -1,0 +1,145 @@
+html, body
+{
+    background: rgb(0, 0, 0);
+    background-color: #ffffff;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.wrapper
+{
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 3px;
+
+
+}
+
+h1
+{
+    color: #3f3f3f;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Arial', serif;
+
+    font-size: 5em;
+}
+
+fieldset
+{
+    font-size: 1.2em;
+
+    font-family: sans-serif;
+
+
+}
+
+label, input, button
+{
+    font-size: 1.25;
+    padding: 0.5em 0.6em;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    border: .5px solid #e7e7e7;
+    background-color: #ffffff;
+}
+
+input
+{
+    margin-right: 0;
+    border-radius: 0.2em 0 0 0.2em;
+}
+
+input:focus
+{
+    outline: none;
+    background-color: #ffffff;
+    background-color: #eaeaea;
+}
+
+button
+{
+    margin-left: .5px;
+    border-radius: 0 0.2em 0.2em 0;
+    background-color: rgb(255, 255, 255);
+}
+
+button:active,
+button:focus
+{
+    background-color: #ffffff;
+    outline: none;
+}
+
+button:hover
+{
+    background-color: #eaeaea;
+}
+
+
+
+.drink-question
+{
+    text-align: center;
+}
+
+.js-drink-form
+{
+    text-align: center;
+}
+
+.js-random-drink
+{
+    text-align: center;
+}
+
+input:focus, textarea:focus {
+    background   : e7e7e7;
+    border-radius: 5px;
+    outline      : none;
+}
+
+.meal-wrapper{
+  margin-right:30px;
+	float:left;
+	width:20%;
+    padding:1%;
+  margin-bottom: 50px;
+}
+
+.meal-thumbnail-image, .drink-thumbnail-image
+{
+    border-radius: 2px;
+    width:100%;
+}
+
+
+
+a:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+a:active
+{
+    color: white;
+}
+
+h2
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+    text-align: center
+}
+
+.meal-name
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+}
